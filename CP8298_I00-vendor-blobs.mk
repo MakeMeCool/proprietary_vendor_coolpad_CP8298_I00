@@ -13,3 +13,5 @@ PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/coolpad/CP8298_I00/
 PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/coolpad/CP8298_I00/xbin,system/xbin)
 
 PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/coolpad/CP8298_I00/vendor,system/vendor)
+
+PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/coolpad/CP8298_I00/priv-app/CameraNextModv7,system/priv-app/CameraNextModv7)
